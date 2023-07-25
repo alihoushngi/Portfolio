@@ -31,8 +31,8 @@ module.exports = {
 
     extend: {
       colors: {
-        primary: "#15202b",
-        secondary: "#1363DF",
+        primary: "#fffff",
+        secondary: "#2a2935",
         sadafi: "#E8E2E2",
         glassMorphism: "rgba(255, 255, 255, 0.2)",
         smokeWhite: "#F5F5F5",
@@ -41,6 +41,9 @@ module.exports = {
         success: "#3BD49B",
         warning: "#FFE15D",
         error: "#DC3535",
+      },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
       },
     },
   },

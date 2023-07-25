@@ -3,10 +3,12 @@ import React from "react";
 const About = () => {
   return (
     <section
-      className="flex w-full flex-col bg-[#0D002A] p-20 text-white"
+      className="flex w-full flex-col bg-secondary p-20 text-white"
       id="about"
     >
-      <h2 className="text-center text-[30px] uppercase">Evrything about me</h2>
+      <h2 className="text-center text-[30px] uppercase font-bold">
+        Evrything about me
+      </h2>
       <span className="mt-4 leading-8 text-lg">
         I am a determined and passionate individual with a diverse background
         and experience in the world of technology and web development. Born in
