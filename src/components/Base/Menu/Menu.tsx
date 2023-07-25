@@ -6,24 +6,24 @@ import { StyleMenu, StyleMenuList, StyleMenuItem } from "./StyledMenu";
 
 const Menu = () => {
   return (
-    <div className="flex p-5 justify-between items-center">
+    <div className="flex p-5 justify-end items-center fixed w-full bg-white">
       <ul className="flex gap-6">
-        <li className="transition-all duration-300 ease-in-out hover:font-bold hover:text-primary hover:text-xl">
+        <li className="transition-all duration-300 ease-in-out hover:font-bold hover:text-primary hover:text-xl hover:underline">
           <Link href="#about">About me</Link>
         </li>
-        <li className="transition-all duration-300 ease-in-out hover:font-bold hover:text-primary hover:text-xl">
-          <Link href="#skill">Skills</Link>
+        <li className="transition-all duration-300 ease-in-out hover:font-bold hover:text-primary hover:text-xl hover:underline">
+          <Link href="#skills">Skills</Link>
         </li>
-        <li className="transition-all duration-300 ease-in-out hover:font-bold hover:text-primary hover:text-xl">
+        <li className="transition-all duration-300 ease-in-out hover:font-bold hover:text-primary hover:text-xl hover:underline">
           <Link href="#experiences">Experiences</Link>
         </li>
-        <li className="transition-all duration-300 ease-in-out hover:font-bold hover:text-primary hover:text-xl">
+        <li className="transition-all duration-300 ease-in-out hover:font-bold hover:text-primary hover:text-xl hover:underline">
           <Link href="#contact">Contact me</Link>
         </li>
       </ul>
-      <div>
+      {/* <div>
         <Image src={Logo} alt="logo" width={130} />
-      </div>
+      </div> */}
     </div>
   );
 };
