@@ -1,0 +1,82 @@
+[
+  {
+    "name": "HTML",
+    "picture": "/static/images/logos/HTML.png",
+    "persent": 0
+  },
+  {
+    "name": "CSS",
+    "picture": "/static/images/logos/CSS.png",
+    "persent": 0
+  },
+  {
+    "name": "SASS",
+    "picture": "/static/images/logos/SASS.png",
+    "persent": 0
+  },
+  {
+    "name": "Bootstrap",
+    "picture": "/static/images/logos/Bootstrap.png",
+    "persent": 0
+  },
+  {
+    "name": "TailwindCSS",
+    "picture": "/static/images/logos/tailwind.png",
+    "persent": 10
+  },
+  {
+    "name": "Styled Components",
+    "picture": "/static/images/logos/styled-components.png",
+    "persent": 0
+  },
+  {
+    "name": "Javascript",
+    "picture": "/static/images/logos/Javascript.png",
+    "persent": 10
+  },
+  {
+    "name": "React JS",
+    "picture": "/static/images/logos/React.png",
+    "persent": 10
+  },
+  {
+    "name": "Next JS",
+    "picture": "/static/images/logos/NextJS.png",
+    "persent": 20
+  },
+  {
+    "name": "Typescript",
+    "picture": "/static/images/logos/Typescript.png",
+    "persent": 80
+  },
+  {
+    "name": "Redux",
+    "picture": "/static/images/logos/Redux.png",
+    "persent": 20
+  },
+  {
+    "name": "Git",
+    "picture": "/static/images/logos/Git.png",
+    "persent": 10
+  },
+  {
+    "name": "Jira",
+    "picture": "/static/images/logos/Jira.png",
+    "persent": 10
+  },
+  {
+    "name": "Postman",
+    "picture": "/static/images/logos/Postman.png",
+    "persent": 0
+  },
+  {
+    "name": "Photoshop",
+    "picture": "/static/images/logos/Photoshop.png",
+    "persent": 20
+  },
+  {
+    "name": "Adobe XD",
+    "picture": "/static/images/logos/XD.png",
+    "persent": 0
+  }
+]

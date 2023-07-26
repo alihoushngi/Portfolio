@@ -43,7 +43,7 @@ module.exports = {
         error: "#DC3535",
       },
       animation: {
-        "spin-slow": "spin 3s linear infinite",
+        "moving-bars": "4s linear infinite",
       },
     },
   },

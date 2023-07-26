@@ -1,42 +1,42 @@
 [
   {
     "name": "Git / Gitlab",
-    "Persent": 100
+    "persent": 90
   },
   {
     "name": "Jira / Trello",
-    "Persent": 100
+    "persent": 90
   },
   {
     "name": "Project Scaffolding",
-    "Persent": 90
+    "persent": 80
   },
   {
     "name": "ReCharts",
-    "Persent": 75
+    "persent": 75
   },
   {
     "name": "i-18 next",
-    "Persent": 90
+    "persent": 90
   },
   {
     "name": "Moment Js",
-    "Persent": 60
+    "persent": 75
   },
   {
     "name": "leaflet map",
-    "Persent": 70
+    "persent": 70
   },
   {
     "name": "Postman",
-    "Persent": 100
+    "persent": 100
   },
   {
     "name": "Photoshop",
-    "Persent": 80
+    "persent": 80
   },
   {
     "name": "Adobe XD",
-    "Persent": 100
+    "persent": 100
   }
 ]

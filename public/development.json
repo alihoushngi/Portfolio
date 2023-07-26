@@ -1,46 +1,42 @@
 [
   {
     "name": "HTML & CSS & SASS",
-    "Persent": 100
-  },
-  {
-    "name": "Javascript",
-    "Persent": 100
-  },
-  {
-    "name": "React JS",
-    "Persent": 100
-  },
-  {
-    "name": "Next JS",
-    "Persent": 80
-  },
-  {
-    "name": "Typescript",
-    "Persent": 75
-  },
-  {
-    "name": "Typescript",
-    "Persent": 75
+    "persent": 100
   },
   {
     "name": "Bootstrap & TailwindCSS",
-    "Persent": 100
-  },
-  {
-    "name": "React Query /RTK Query /Redux",
-    "Persent": 65
-  },
-  {
-    "name": "Axios",
-    "Persent": 100
-  },
-  {
-    "name": "Formik and Yup",
-    "Persent": 100
+    "persent": 95
   },
   {
     "name": "Styled Components",
-    "Persent": 100
+    "persent": 100
+  },
+  {
+    "name": "Javascript",
+    "persent": 90
+  },
+  {
+    "name": "React JS",
+    "persent": 90
+  },
+  {
+    "name": "Next JS",
+    "persent": 80
+  },
+  {
+    "name": "Typescript",
+    "persent": 75
+  },
+  {
+    "name": "React Query /RTK Query /Redux",
+    "persent": 65
+  },
+  {
+    "name": "Axios",
+    "persent": 90
+  },
+  {
+    "name": "Formik and Yup",
+    "persent": 100
   }
 ]
