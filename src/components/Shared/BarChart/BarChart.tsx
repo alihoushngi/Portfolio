@@ -14,7 +14,7 @@ const BarChart = ({ persent, name }: chartType) => {
 
   return (
     <li
-      className="h-8 rounded mb-1 bg-gradient-to-r from-secondary to-gray-600 text-white animate-moving-bars"
+      className="h-8 rounded mb-4 bg-gradient-to-r from-secondary to-gray-600 text-white animate-moving-bars"
       style={{ width: `${persent}%` }}
       data-aos="fade-up"
     >
