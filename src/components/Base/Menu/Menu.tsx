@@ -17,10 +17,6 @@ const menuItem = [
     id: "#projects",
   },
   {
-    name: "Experiences",
-    id: "#experiences",
-  },
-  {
     name: "Contact me",
     id: "#contact",
   },

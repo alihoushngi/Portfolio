@@ -1,59 +1,86 @@
 import React from "react";
 
+const companies = [
+  {
+    name: "Khazar Informatic",
+    date: "1397 - 1399",
+    des: "lorem",
+  },
+  {
+    name: "Nilasoft",
+    date: "1399 - 1400",
+    des: "lorem",
+  },
+  {
+    name: "Pezhvak Dadeh Khazar",
+    date: "1400 - 1401",
+    des: "lorem",
+  },
+];
+
 const About = () => {
   return (
-    <section className="flex w-full flex-col  p-20 text-secondary" id="about">
-      <h2 className="text-center text-[30px] uppercase font-bold">
-        Evrything about me
-      </h2>
-      <span className="mt-4 leading-8 text-lg">
-        I am a determined and passionate individual with a diverse background
-        and experience in the world of technology and web development. Born in
-        Rasht and having spent the majority of my childhood in Tehran, I
-        developed a love for sports, particularly football, during my early
-        years.
-        <br />
-        <br />I had the opportunity to showcase my talent as a football player
-        in the Esteqlal FC under 20 team, which instilled in me a sense of
-        discipline, teamwork, and dedication. As I moved to Rasht, my focus
-        shifted towards pursuing a career in the field of software engineering.
-        I attended Chamran University, where I earned my degree in Software
-        Engineering, laying a solid foundation for my future endeavors.
-        <br />
-        <br />
-        My journey in the technology industry officially began when I joined
-        Khazar Informatic company at the age of 20. There, I honed my skills in
-        software installation, hardware and laptop repair, and network
-        management, gaining valuable hands-on experience in these areas. To
-        further expand my expertise, I moved on to Nilasoft company, where I
-        immersed myself in the world of web design, specifically working with
-        WordPress. My goal was to create personalized and exceptional websites
-        for clients, combining my proficiency in CSS, HTML, and WordPress. I
-        continuously pushed myself to become a top-notch WordPress designer.
-        <br />
-        <br />
-        With a thirst for new challenges and growth, I took the opportunity to
-        advance my skills in frontend development by joining Pezhvak Dadeh
-        Khazar company. There, I completed training in React JS and actively
-        contributed to the development of the Pikapp dashboard, utilizing
-        technologies such as React, Bootstrap, and TypeScript. This experience
-        further expanded my knowledge in frontend development and enriched my
-        problem-solving capabilities.
-        <br />
-        <br /> Recently, I have ventured into working as a freelancer, focusing
-        on projects involving NextJS and WordPress. My aim is to leverage the
-        power of NextJS to develop high-quality and user-friendly websites for
-        my clients, always striving to exceed their expectations. As I near the
-        completion of my military service, I am eager to join a forward-thinking
-        and dynamic company that values innovation and creativity in the
-        technology industry. If you are interested in discussing potential
-        opportunities, please feel free to contact me through the contact
-        section on my website.
-        <br />
-        <br /> I look forward to bringing my skills, passion, and determination
-        to contribute to the success of your esteemed organization. Thank you
-        for considering my profile.
-      </span>
+    <section
+      className="flex w-full flex-col min-h-screen p-28 text-secondary"
+      id="about"
+    >
+      <div className="flex flex-shrink">
+        <div className="w-[50%]">
+          <h2 className="text-center text-[30px] uppercase font-bold mb-14">
+            Evrything about me
+          </h2>
+          <span className="leading-8 text-lg ">
+            👋 Greetings! I am an adventurous and dedicated Frontend Developer
+            with a burning passion for all things web development. 🚀 With 3
+            years of hands-on experience under my belt, I ve immersed myself in
+            the enchanting realms of NextJs and Typescript, mastering the art of
+            weaving intricate digital experiences.
+            <br />
+            <br />
+            🛠️ Armed with my trusty tools like React, JavaScript, Bootstrap, and
+            Sass, I ve honed my craft to perfection. My ultimate mission is to
+            create responsive and eye-catching user interfaces that leave a
+            lasting impression on every visitor.
+            <br />
+            <br />
+            🌌 As a curious explorer of the digital landscape, I never stop
+            learning. Each new challenge is an opportunity to discover more, to
+            push my boundaries, and to grow as a developer. There is nothing
+            more satisfying than transforming complex code conundrums into
+            elegant solutions.
+            <br />
+            <br />
+            🎯 My quest is to contribute my magical expertise to web projects
+            that make a real impact, where innovation and creativity merge to
+            cast a spell of enchantment on users.
+          </span>
+        </div>
+        <div className="w-[50%]">
+          <h2 className="text-center text-[30px] uppercase font-bold mb-14">
+            Experincess
+          </h2>
+          <div className="flex gap-8 flex-col ps-28 pe-28">
+            {companies.map((data, index) => {
+              return (
+                <div key={index}>
+                  <div className="flex gap-3">
+                    <span className="font-extralight text-xl bg-blue-500 w-8 h-8 rounded-[100%] text-center leading-8 text-white">
+                      {index + 1}
+                    </span>
+                    <h4 className="font-medium text-4xl">{data.name}</h4>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="font-extralight text-gray-800 text-md">
+                      {data.date}
+                    </span>
+                    <span className="font-medium text-xl">{data.des}</span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

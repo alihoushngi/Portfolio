@@ -37,8 +37,8 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen" id="skills">
-      <div className="flex w-full ps-20 pe-20 pt-20 gap-7 mt-12">
+    <div className="flex flex-col min-h-screen pt-14" id="skills">
+      <div className="flex w-full gap-7">
         <h2 className="font-bold text-4xl text-center w-full pt-3">
           Development , Productivity and Design
         </h2>
