@@ -14,7 +14,7 @@ export interface ExCardProps {
   projectData: projectType[];
 }
 
-const Experiances = () => {
+const Projects = () => {
   const [project, setProject] = useState<projectType[]>([]);
   useEffect(() => {
     async function fetchProject() {
@@ -26,7 +26,7 @@ const Experiances = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen pt-20" id="experiences">
+    <div className="flex flex-col min-h-screen pt-20" id="projects">
       <h2 className="font-bold text-4xl text-center w-full p-10">
         My Project and Experiance
       </h2>
@@ -37,4 +37,4 @@ const Experiances = () => {
   );
 };
 
-export default Experiances;
+export default Projects;

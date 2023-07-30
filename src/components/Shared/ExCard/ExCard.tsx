@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { projectType } from "@base/Experiances/Experiances";
+import { projectType } from "@base/Projects/Projects";
 import Image from "next/image";
 
 interface ExCardProps {

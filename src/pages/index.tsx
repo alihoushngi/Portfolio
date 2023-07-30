@@ -1,5 +1,5 @@
 import About from "@base/About/About";
-import Experiances from "@base/Experiances/Experiances";
+import Experiances from "@base/Projects/Projects";
 import Header from "@base/Header/Header";
 import Skills from "@base/Skills/Skills";
 
