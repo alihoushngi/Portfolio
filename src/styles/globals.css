@@ -300,15 +300,14 @@ template {
   display: none;
 }
 
-.sender {
-  flex-direction: row-reverse !important;
+/* .swiper {
+  overflow: hidden !important;
+} */
+
+.swiper-pagination {
+  display: none !important;
 }
 
-.receiver {
-  flex-direction: row !important;
-}
-
-.left {
-  right: unset !important;
-  left: 2px;
-}
+/* .swiper-slide {
+  width: 400px !important;
+} */

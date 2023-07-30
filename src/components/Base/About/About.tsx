@@ -2,10 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section
-      className="flex w-full flex-col bg-secondary p-20 text-white"
-      id="about"
-    >
+    <section className="flex w-full flex-col  p-20 text-secondary" id="about">
       <h2 className="text-center text-[30px] uppercase font-bold">
         Evrything about me
       </h2>
