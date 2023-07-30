@@ -9,20 +9,17 @@ export interface skillIcon {
 
 const SkillsIcone = ({ name, persent, picture }: skillIcon) => {
   return (
-    <div className="flex justify-center pt-9">
-      <div className="w-[100px] h-[100px] relative">
+    <div className="flex justify-center pt-9 flex-col gap-8 items-center ">
+      <div className="w-[130px] h-[130px] relative flex items-center">
         <Image
           src={picture}
           alt={name}
-          width={100}
-          height={100}
-          className="rounded-[100%] absolute w-[100px] h-[100px] object-cover"
+          width={300}
+          height={300}
+          className="absolute object-cover"
         />
-        <div
-          className={`w-full bg-secondary h-full rounded-[100%] absolute opacity-${persent}`}
-        ></div>
       </div>
-      {/* <div>{name}</div> */}
+      <div>{name}</div>
     </div>
   );
 };
