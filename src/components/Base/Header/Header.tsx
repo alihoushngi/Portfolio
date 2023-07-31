@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
-import ali from "@images/logos/new/ali.png";
-import logo from "@images/logos/new/Logoo.png";
+import ali from "@images/ali.png";
+import logo from "@images/Logoo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -2,7 +2,7 @@
   "app": "portfolio-ali",
   "disks": [
     {
-      "name": "public",
+      "name": "pub",
       "mountTo": "public"
     }
   ],

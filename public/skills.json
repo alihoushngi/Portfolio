@@ -1,82 +1,82 @@
 [
   {
     "name": "HTML",
-    "picture": "/static/images/logos/new/HTML.png",
+    "picture": "/static/images/HTML.png",
     "persent": 0
   },
   {
     "name": "CSS",
-    "picture": "/static/images/logos/new/CSS.png",
+    "picture": "/static/images/CSS.png",
     "persent": 0
   },
   {
     "name": "SASS",
-    "picture": "/static/images/logos/new/SASS.webp",
+    "picture": "/static/images/sass.webp",
     "persent": 0
   },
   {
     "name": "Bootstrap",
-    "picture": "/static/images/logos/new/Bootstrap.png",
+    "picture": "/static/images/Bootstrap.png",
     "persent": 0
   },
   {
     "name": "TailwindCSS",
-    "picture": "/static/images/logos/new/tailwind.png",
+    "picture": "/static/images/tailwind.png",
     "persent": 10
   },
   {
     "name": "Styled Components",
-    "picture": "/static/images/logos/new/styled-components.png",
+    "picture": "/static/images/styled-components.png",
     "persent": 0
   },
   {
     "name": "Javascript",
-    "picture": "/static/images/logos/new/Javascript.png",
+    "picture": "/static/images/Javascript.png",
     "persent": 10
   },
   {
     "name": "React JS",
-    "picture": "/static/images/logos/new/React.png",
+    "picture": "/static/images/React.png",
     "persent": 10
   },
   {
     "name": "Next JS",
-    "picture": "/static/images/logos/new/NextJS.webp",
+    "picture": "/static/images/next.webp",
     "persent": 20
   },
   {
     "name": "Typescript",
-    "picture": "/static/images/logos/new/Typescript.png",
+    "picture": "/static/images/Typescript.png",
     "persent": 80
   },
   {
     "name": "Redux",
-    "picture": "/static/images/logos/new/Redux.png",
+    "picture": "/static/images/Redux.png",
     "persent": 20
   },
   {
     "name": "Git",
-    "picture": "/static/images/logos/new/Git.png",
+    "picture": "/static/images/Git.png",
     "persent": 10
   },
   {
     "name": "Jira",
-    "picture": "/static/images/logos/new/Jira.png",
+    "picture": "/static/images/Jira.png",
     "persent": 10
   },
   {
     "name": "Postman",
-    "picture": "/static/images/logos/new/Postman.png",
+    "picture": "/static/images/Postman.png",
     "persent": 0
   },
   {
     "name": "Photoshop",
-    "picture": "/static/images/logos/new/Photoshop.png",
+    "picture": "/static/images/Photoshop.png",
     "persent": 20
   },
   {
     "name": "Adobe XD",
-    "picture": "/static/images/logos/new/XD.png",
+    "picture": "/static/images/XD.png",
     "persent": 0
   }
 ]
