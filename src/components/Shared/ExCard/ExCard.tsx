@@ -7,7 +7,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { projectType } from "@base/Projects/Projects";
 import Image from "next/image";
-import Link from "next/link";
 
 interface ExCardProps {
   projectData: projectType[];
@@ -53,12 +52,9 @@ const ExCard: React.FC<ExCardProps> = ({ projectData }) => {
                     {data.en_des}
                   </span>
                   <div className="flex justify-end w-full mt-3">
-                    <Link
-                      href="#"
-                      className="transition-all ease-linear p-2 text-sm hover:text-lg rounded-sm"
-                    >
-                      Read more ...
-                    </Link>
+                    <span className="after:transition-all after:duration-300 after:ease-linear hover:text-primary after:border-b after:border-white after:w-full after:block after:scale-0 hover:after:scale-100 after:origin-left after:delay-150 text-sm">
+                      Read more
+                    </span>
                   </div>
                 </div>
               </div>

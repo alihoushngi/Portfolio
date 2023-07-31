@@ -1,4 +1,5 @@
 import ExCard from "@components/Shared/ExCard/ExCard";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 export interface projectType {
@@ -30,9 +31,11 @@ const Projects = () => {
       <h4 className="font-bold text-4xl text-center w-full p-10">
         My Project and Experiance
       </h4>
-      <div className="p-10">
-        <ExCard projectData={project} />
-      </div>
+      <Link href="#">
+        <div className="p-10">
+          <ExCard projectData={project} />
+        </div>
+      </Link>
     </div>
   );
 };

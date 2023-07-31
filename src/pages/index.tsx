@@ -3,6 +3,7 @@ import Projects from "@base/Projects/Projects";
 import Header from "@base/Header/Header";
 import Skills from "@base/Skills/Skills";
 import Head from "next/head";
+import Contact from "@base/Contact/Contact";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </main>
     </>
   );
