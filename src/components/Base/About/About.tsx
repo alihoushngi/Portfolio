@@ -26,9 +26,9 @@ const About = () => {
     >
       <div className="flex flex-shrink">
         <div className="w-[50%]">
-          <h2 className="text-center text-[30px] uppercase font-bold mb-14">
+          <h1 className="text-center text-[30px] uppercase font-bold mb-14">
             Evrything about me
-          </h2>
+          </h1>
           <span className="leading-8 text-lg ">
             👩‍💻 As a frontend developer, I have been actively engaged in the
             field for the past three years, honing my skills and expanding my
@@ -67,7 +67,7 @@ const About = () => {
                     <span className="font-extralight text-xl bg-secondary w-8 h-8 rounded-[100%] text-center leading-8 text-white">
                       {index + 1}
                     </span>
-                    <h4 className="font-medium text-4xl">{data.name}</h4>
+                    <span className="font-medium text-4xl">{data.name}</span>
                   </div>
                   <div className="flex flex-col">
                     <span className="font-extralight text-gray-800 text-md">

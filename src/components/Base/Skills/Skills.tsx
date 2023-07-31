@@ -39,9 +39,9 @@ const Skills = () => {
   return (
     <div className="flex flex-col min-h-screen pt-14" id="skills">
       <div className="flex w-full gap-7">
-        <h2 className="font-bold text-4xl text-center w-full pt-3">
+        <h3 className="font-bold text-4xl text-center w-full pt-3">
           Development , Productivity and Design
-        </h2>
+        </h3>
       </div>
       <div className="flex flex-wrap p-12 gap-14 justify-center">
         {skills.map((data, index) => {

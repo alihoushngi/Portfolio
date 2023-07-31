@@ -19,7 +19,7 @@ const Header = () => {
         <Image
           src={ali}
           alt="alihoushangi"
-          className="bg-contain w-[900px] h-[700px] absolute bottom-0 aspect-[2]"
+          className="bg-contain w-[900px] h-[700px] absolute bottom-0 aspect-square"
         />
       </div>
       <div className="mr-48 flex items-center" data-aos="fade-left">

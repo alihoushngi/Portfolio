@@ -48,7 +48,7 @@ const ExCard: React.FC<ExCardProps> = ({ projectData }) => {
                   />
                 </div>
                 <div className="p-4 w-full">
-                  <h2 className="text-xl mb-2">{data.en_name}</h2>
+                  <h5 className="text-xl mb-2">{data.en_name}</h5>
                   <span className="text-gray-100 font-thin text-md max-h-40 line-clamp-4">
                     {data.en_des}
                   </span>

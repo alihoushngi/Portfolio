@@ -27,9 +27,9 @@ const Projects = () => {
 
   return (
     <div className="flex flex-col min-h-screen pt-14" id="projects">
-      <h2 className="font-bold text-4xl text-center w-full p-10">
+      <h4 className="font-bold text-4xl text-center w-full p-10">
         My Project and Experiance
-      </h2>
+      </h4>
       <div className="p-10">
         <ExCard projectData={project} />
       </div>

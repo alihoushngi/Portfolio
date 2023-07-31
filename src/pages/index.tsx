@@ -1,16 +1,26 @@
 import About from "@base/About/About";
-import Experiances from "@base/Projects/Projects";
+import Projects from "@base/Projects/Projects";
 import Header from "@base/Header/Header";
 import Skills from "@base/Skills/Skills";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <main>
-      <Header />
-      <About />
-      <Skills />
-      <Experiances />
-    </main>
+    <>
+      <Head>
+        <title>Ali Houshangi</title>
+        <meta
+          name="description"
+          content="This site is my portfolio and anything about me"
+        />
+      </Head>
+      <main>
+        <Header />
+        <About />
+        <Skills />
+        <Projects />
+      </main>
+    </>
   );
 }
 
