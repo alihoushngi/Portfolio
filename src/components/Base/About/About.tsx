@@ -4,17 +4,17 @@ const companies = [
   {
     name: "Khazar Informatic",
     date: "1397 - 1399",
-    des: "lorem",
+    des: "Khazar Informatic is a hardware repair and sales company located in Rasht. I have been working in this company as the Technical Department Manager, responsible for tasks such as installing Windows and software, as well as repairing and replacing hardware components and assembling computer cases.",
   },
   {
     name: "Nilasoft",
     date: "1399 - 1400",
-    des: "lorem",
+    des: "Nilasoft is a web development and design company specializing in web development under various web programming platforms. They also engage in WordPress website design for their clients. My responsibility at the company was focused on WordPress website design, and I delivered fully customized websites to the clients.",
   },
   {
-    name: "Pezhvak Dadeh Khazar",
+    name: "Pezhvak",
     date: "1400 - 1401",
-    des: "lorem",
+    des: "Pajhwak is a web development and design company with several products. One of their products was related to urban and intercity transportation. I designed the website dashboard panel for this product called Pikaap I delivered this dashboard using ReactJS and Bootstrap. It was a great experience for me at the beginning of my programming journey.",
   },
 ];
 
@@ -30,29 +30,29 @@ const About = () => {
             Evrything about me
           </h2>
           <span className="leading-8 text-lg ">
-            👋 Greetings! I am an adventurous and dedicated Frontend Developer
-            with a burning passion for all things web development. 🚀 With 3
-            years of hands-on experience under my belt, I ve immersed myself in
-            the enchanting realms of NextJs and Typescript, mastering the art of
-            weaving intricate digital experiences.
+            👩‍💻 As a frontend developer, I have been actively engaged in the
+            field for the past three years, honing my skills and expanding my
+            knowledge. Throughout my journey, I have immersed myself in various
+            technologies, specializing in Next.js and TypeScript, which have
+            become my forte.
             <br />
             <br />
-            🛠️ Armed with my trusty tools like React, JavaScript, Bootstrap, and
-            Sass, I ve honed my craft to perfection. My ultimate mission is to
-            create responsive and eye-catching user interfaces that leave a
-            lasting impression on every visitor.
+            My expertise extends beyond these core technologies. I have garnered
+            a deep understanding of React, mastering its nuances and utilizing
+            it to build dynamic and responsive user interfaces. JavaScript has
+            been the backbone of my coding endeavors, allowing me to craft
+            interactive and seamless web experiences.
             <br />
+            Moreover, I have harnessed the power of Bootstrap and Sass to
+            enhance the visual appeal and aesthetics of web applications,
+            ensuring they not only function impeccably but also look stunning.
             <br />
-            🌌 As a curious explorer of the digital landscape, I never stop
-            learning. Each new challenge is an opportunity to discover more, to
-            push my boundaries, and to grow as a developer. There is nothing
-            more satisfying than transforming complex code conundrums into
-            elegant solutions.
-            <br />
-            <br />
-            🎯 My quest is to contribute my magical expertise to web projects
-            that make a real impact, where innovation and creativity merge to
-            cast a spell of enchantment on users.
+            One of the aspects I take immense pride in is my problem-solving
+            acumen. My experience has equipped me with the ability to tackle
+            complex challenges, identify bottlenecks, and devise elegant
+            solutions. I am excited to take on new challenges, push boundaries,
+            and continue evolving as a developer in this rapidly evolving tech
+            landscape. 💻🚀
           </span>
         </div>
         <div className="w-[50%]">
@@ -64,7 +64,7 @@ const About = () => {
               return (
                 <div key={index}>
                   <div className="flex gap-3">
-                    <span className="font-extralight text-xl bg-blue-500 w-8 h-8 rounded-[100%] text-center leading-8 text-white">
+                    <span className="font-extralight text-xl bg-secondary w-8 h-8 rounded-[100%] text-center leading-8 text-white">
                       {index + 1}
                     </span>
                     <h4 className="font-medium text-4xl">{data.name}</h4>
@@ -73,7 +73,7 @@ const About = () => {
                     <span className="font-extralight text-gray-800 text-md">
                       {data.date}
                     </span>
-                    <span className="font-medium text-xl">{data.des}</span>
+                    <span className="">{data.des}</span>
                   </div>
                 </div>
               );

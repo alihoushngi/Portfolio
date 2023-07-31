@@ -10,13 +10,13 @@ export interface skillIcon {
 const SkillsIcone = ({ name, persent, picture }: skillIcon) => {
   return (
     <div className="flex justify-center pt-9 flex-col gap-8 items-center ">
-      <div className="w-[130px] h-[130px] relative flex items-center">
+      <div className="max-w-[130px] max-h-[130px] min-w-[130px] min-h-[130px] relative flex items-center">
         <Image
           src={picture}
           alt={name}
           width={300}
           height={300}
-          className="absolute object-cover"
+          className="absolute object-contain"
         />
       </div>
       <div>{name}</div>
