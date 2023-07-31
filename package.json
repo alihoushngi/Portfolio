@@ -34,6 +34,7 @@
     "react-snap-carousel": "^0.3.2",
     "redux": "^4.2.1",
     "sass": "^1.64.1",
+    "sharp": "^0.32.4",
     "styled-components": "^5.3.10",
     "swiper": "^10.0.4",
     "tailwindcss": "3.3.2",

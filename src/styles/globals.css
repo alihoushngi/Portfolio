@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url(../../public/static/fonts/fontiran.css);
+@import url(/static/fonts/fontiran.css);
 
 html {
   line-height: 1.15; /* 1 */
@@ -10,7 +10,7 @@ html {
 }
 html,
 body {
-  font-family: KalamehWeb !important;
+  font-family: KalamehWeb, sans-serif;
 }
 
 body {

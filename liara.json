@@ -1,0 +1,12 @@
+{
+  "app": "portfolio-ali",
+  "disks": [
+    {
+      "name": "public",
+      "mountTo": "public"
+    }
+  ],
+  "next": {
+    "modifyConfig": false
+  }
+}
