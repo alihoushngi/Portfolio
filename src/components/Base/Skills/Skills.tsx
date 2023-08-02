@@ -37,13 +37,16 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen pt-14" id="skills">
+    <section
+      className="flex flex-col md:min-h-screen pt-14 max-md:p-3"
+      id="skills"
+    >
       <div className="flex w-full gap-7">
-        <h3 className="font-bold text-4xl text-center w-full pt-3">
-          Development , Productivity and Design
+        <h3 className="font-bold text-xl md:text-4xl text-center w-full md:pt-3 pt-11">
+          My skills
         </h3>
       </div>
-      <div className="flex flex-wrap p-12 gap-14 justify-center">
+      <div className="flex flex-wrap gap-4 md:p-12 md:gap-14 justify-center">
         {skills.map((data, index) => {
           return (
             <SkillsIcone
@@ -55,7 +58,7 @@ const Skills = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

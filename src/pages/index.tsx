@@ -1,6 +1,6 @@
 import About from "@base/About/About";
 import Projects from "@base/Projects/Projects";
-import Header from "@base/Header/Header";
+import Intro from "@base/Intro/Intro";
 import Skills from "@base/Skills/Skills";
 import Head from "next/head";
 import Contact from "@base/Contact/Contact";
@@ -16,7 +16,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Header />
+        <Intro />
         <About />
         <Skills />
         <Projects />

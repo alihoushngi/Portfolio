@@ -10,7 +10,7 @@ export interface skillIcon {
 const SkillsIcone = ({ name, persent, picture }: skillIcon) => {
   return (
     <div className="flex justify-center pt-9 flex-col gap-8 items-center ">
-      <div className="max-w-[130px] max-h-[130px] min-w-[130px] min-h-[130px] relative flex items-center">
+      <div className="md:max-w-[130px] md:max-h-[130px] md:min-w-[130px] md:min-h-[130px] w-12 h-12 relative flex items-center">
         <Image
           src={picture}
           alt={name}
@@ -19,7 +19,7 @@ const SkillsIcone = ({ name, persent, picture }: skillIcon) => {
           className="absolute object-contain"
         />
       </div>
-      <div>{name}</div>
+      <div className="text-sm">{name}</div>
     </div>
   );
 };

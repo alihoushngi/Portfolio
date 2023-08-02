@@ -18,17 +18,6 @@ module.exports = {
       "4xl": "30px",
     },
 
-    screens: {
-      mobile: { max: "576px" },
-      // => @media (max-width: 576px) {...}
-
-      tablet: { min: "576px", max: "991" },
-      // => @media (min-width: 640px) { ... }
-
-      desktop: "992px",
-      // => @media (min-width: 992px) { ... }
-    },
-
     extend: {
       colors: {
         primary: "#fffff",

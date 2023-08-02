@@ -16,10 +16,27 @@ const ExCard: React.FC<ExCardProps> = ({ projectData }) => {
   return (
     <>
       <Swiper
-        className="w-full h-full"
+        className="w-full h-full max-md:max-h-[200px]"
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={50}
         slidesPerView={4}
+        breakpoints={{
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          // when window width is >: 480px
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+          // when window width is >: 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        }}
         // navigation
         autoplay={{
           delay: 1000,
@@ -34,7 +51,7 @@ const ExCard: React.FC<ExCardProps> = ({ projectData }) => {
           return (
             <SwiperSlide
               key={index}
-              className="bg-secondary text-white rounded-lg "
+              className="bg-secondary text-white rounded-lg h-full"
             >
               <div>
                 <div>

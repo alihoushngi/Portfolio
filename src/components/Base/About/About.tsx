@@ -21,12 +21,12 @@ const companies = [
 const About = () => {
   return (
     <section
-      className="flex w-full flex-col min-h-screen p-28 text-secondary"
+      className="md;min-h-screen md:pt-16 text-secondary w-[90%] mx-auto "
       id="about"
     >
-      <div className="flex flex-shrink">
-        <div className="w-[50%]">
-          <h1 className="text-center text-[30px] uppercase font-bold mb-14">
+      <div className="flex flex-col gap-10 md:flex-row">
+        <div className="w-full md:w-1/2">
+          <h1 className="text-center text-xl md:text-[30px] uppercase font-bold mb-11">
             Evrything about me
           </h1>
           <span className="leading-8 text-lg ">
@@ -37,43 +37,45 @@ const About = () => {
             become my forte.
             <br />
             <br />
-            My expertise extends beyond these core technologies. I have garnered
-            a deep understanding of React, mastering its nuances and utilizing
-            it to build dynamic and responsive user interfaces. JavaScript has
-            been the backbone of my coding endeavors, allowing me to craft
-            interactive and seamless web experiences.
-            <br />
-            Moreover, I have harnessed the power of Bootstrap and Sass to
-            enhance the visual appeal and aesthetics of web applications,
-            ensuring they not only function impeccably but also look stunning.
-            <br />
-            One of the aspects I take immense pride in is my problem-solving
-            acumen. My experience has equipped me with the ability to tackle
-            complex challenges, identify bottlenecks, and devise elegant
-            solutions. I am excited to take on new challenges, push boundaries,
-            and continue evolving as a developer in this rapidly evolving tech
-            landscape. 💻🚀
+            <span className="max-md:hidden">
+              My expertise extends beyond these core technologies. I have
+              garnered a deep understanding of React, mastering its nuances and
+              utilizing it to build dynamic and responsive user interfaces.
+              JavaScript has been the backbone of my coding endeavors, allowing
+              me to craft interactive and seamless web experiences.
+              <br />
+              Moreover, I have harnessed the power of Bootstrap and Sass to
+              enhance the visual appeal and aesthetics of web applications,
+              ensuring they not only function impeccably but also look stunning.
+              <br />
+              One of the aspects I take immense pride in is my problem-solving
+              acumen. My experience has equipped me with the ability to tackle
+              complex challenges, identify bottlenecks, and devise elegant
+              solutions. I am excited to take on new challenges, push
+              boundaries, and continue evolving as a developer in this rapidly
+              evolving tech landscape. 💻🚀
+            </span>
           </span>
         </div>
-        <div className="w-[50%]">
-          <h2 className="text-center text-[30px] uppercase font-bold mb-14">
+        <div className="w-full md:w-1/2">
+          <h2 className="text-center text-xl md:text-[30px] uppercase font-bold mb-11">
             Experincess
           </h2>
-          <div className="flex gap-8 flex-col ps-28 pe-28">
+          <div className="flex gap-8 flex-col">
             {companies.map((data, index) => {
               return (
-                <div key={index}>
+                <div key={index} className="flex gap-2 flex-col">
                   <div className="flex gap-3">
-                    <span className="font-extralight text-xl bg-secondary w-8 h-8 rounded-[100%] text-center leading-8 text-white">
+                    <span className="font-extralight text-md md:text-xl bg-secondary w-5 h-5 leading-5 md:w-8 md:h-8 rounded-[100%] text-center md:leading-8 text-white">
                       {index + 1}
                     </span>
-                    <span className="font-medium text-4xl">{data.name}</span>
+                    <span className="font-medium md:text-4xl">{data.name}</span>
                   </div>
                   <div className="flex flex-col">
-                    <span className="font-extralight text-gray-800 text-md">
+                    <span className="font-extralight text-sm text-gray-800 md:text-md">
                       {data.date}
                     </span>
-                    <span className="">{data.des}</span>
+                    <span className="font-light text-lg">{data.des}</span>
                   </div>
                 </div>
               );

@@ -27,8 +27,8 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen pt-14" id="projects">
-      <h4 className="font-bold text-4xl text-center w-full p-10">
+    <section className="flex flex-col md:min-h-screen pt-14" id="projects">
+      <h4 className="font-bold text-xl md:text-4xl text-center w-full p-10">
         My Project and Experiance
       </h4>
       <Link href="#">
@@ -36,7 +36,7 @@ const Projects = () => {
           <ExCard projectData={project} />
         </div>
       </Link>
-    </div>
+    </section>
   );
 };
 
