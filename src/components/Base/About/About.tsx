@@ -21,7 +21,7 @@ const companies = [
 const About = () => {
   return (
     <section
-      className="md;min-h-screen md:pt-16 text-secondary w-[90%] mx-auto "
+      className="md:min-h-screen md:pt-16 text-secondary w-[90%] mx-auto "
       id="about"
     >
       <div className="flex flex-col gap-10 md:flex-row">

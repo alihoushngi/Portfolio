@@ -35,7 +35,7 @@ const Menu = () => {
             return (
               <li
                 key={index}
-                className="text-md md:text-md  after:transition-all after:duration-300 after:ease-linear hover:text-primary after:border-b-2 after:border-secondary after:w-full after:block after:scale-0 hover:after:scale-100 after:origin-left after:delay-150"
+                className="text-md md:text-md after:transition-all after:duration-300 after:ease-linear hover:text-primary after:border-b-2 after:border-secondary after:w-full after:block after:scale-0 hover:after:scale-100 after:origin-left after:delay-150"
                 // data-aos="fade-right"
                 // data-aos-duration="3000"
               >
